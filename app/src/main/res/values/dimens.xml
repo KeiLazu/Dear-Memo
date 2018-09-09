@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Created by Kei Lazu on 9/8/2018
+  check https://github.com/KeiLazu for more
+-->
+
+<resources>
+    <dimen name="dimen_constraint_width">0dp</dimen>
+    <dimen name="dimen_constraint_height">0dp</dimen>
+    <dimen name="padding_start_end">8dp</dimen>
+    <dimen name="padding_top_bottom">4dp</dimen>
+    <dimen name="margin_start_end">16dp</dimen>
+    <dimen name="margin_top_bottom">8dp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <dimen name="text_notes">14sp</dimen>
+</resources>

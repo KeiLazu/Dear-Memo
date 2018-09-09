@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="rvBackground">
+        <item name="android:background">@color/rvBackgroundColor</item>
+    </style>
+
+    <style name="CustomCardView">
+        <item name="android:background">@color/pureWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_start_end</item>
+        <item name="android:layout_marginEnd">@dimen/margin_start_end</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_bottom</item>
+    </style>
+
+    <style name="CardViewPadding">
+        <item name="android:paddingStart">@dimen/padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/padding_start_end</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom</item>
+    </style>
+
+    <style name="MemoTitle">
+
+    </style>
+
+</resources>

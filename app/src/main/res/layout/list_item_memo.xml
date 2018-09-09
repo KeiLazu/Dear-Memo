@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Created by Kei Lazu on 
+  check https://github.com/KeiLazu for more
+-->
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/CustomCardView"
+    app:cardElevation="8dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_top_bottom"
+        android:paddingEnd="@dimen/padding_start_end"
+        android:paddingStart="@dimen/padding_start_end"
+        android:paddingTop="@dimen/padding_top_bottom"
+        >
+
+        <TextView
+            android:id="@+id/list_item_tv_memo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/text_title" />
+
+        <View
+            android:id="@+id/list_item_view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintTop_toBottomOf="@id/list_item_tv_memo_title" />
+
+        <TextView
+            android:id="@+id/list_item_tv_memo_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="@dimen/text_notes"
+            app:layout_constraintTop_toBottomOf="@id/list_item_view_divider" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.v7.widget.CardView>
